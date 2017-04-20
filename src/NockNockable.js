@@ -1,4 +1,4 @@
-import Nockable from './nockable';
+import Nockable from './Nockable';
 
 export default class NockNockable extends Nockable {
     constructor({ nock, endpoint }) {

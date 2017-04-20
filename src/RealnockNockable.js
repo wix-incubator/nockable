@@ -1,5 +1,5 @@
 import Q from 'q';
-import Nockable from './nockable';
+import Nockable from './Nockable';
 
 export default class RealnockNockable extends Nockable {
     constructor({ RealnockStub, port }) {
