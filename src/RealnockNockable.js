@@ -1,9 +1,10 @@
 import Q from 'q';
+import Stub from 'real-nock';
 import Nockable from './Nockable';
 
 export default class RealnockNockable extends Nockable {
-    constructor({ RealnockStub, port }) {
-        const backend = new RealnockStub({port});
+    constructor({ port }) {
+        const backend = new Stub({port});
 
         super({
             nock: backend.stub,
