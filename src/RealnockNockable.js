@@ -8,7 +8,7 @@ export default class RealnockNockable extends Nockable {
 
         super({
             nock: backend.stub,
-            endpoint: `http://localhost:${port}/`
+            endpoint: `http://localhost:${port}/test/` // extra 'test' directory works around issues with nocking empty path
         });
 
         this._backend = backend;
