@@ -28,7 +28,7 @@
   "dependencies": {
     "q": "^1.4.1",
     "nock": "^9.0.13",
-    "real-nock": "git://github.com/TabDigital/real-nock.git"
+    "real-nock": "git://github.com/wix/real-nock.git"
   },
   "devDependencies": {
     "babel": "^6.5.2",
