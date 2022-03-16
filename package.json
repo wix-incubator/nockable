@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/wix/nockable",
   "dependencies": {
-    "q": "^1.4.1",
+    "http-proxy": "^1.18.1",
     "nock": "^9.0.13",
-    "real-nock": "git://github.com/wix/real-nock.git"
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "babel": "^6.5.2",
