@@ -1,5 +1,5 @@
 import Q from 'q';
-import Stub from 'real-nock';
+import Stub from './real-nock';
 import Nockable from './Nockable';
 
 export default class RealnockNockable extends Nockable {
