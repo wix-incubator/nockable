@@ -1,6 +1,6 @@
 {
   "name": "nockable",
-  "version": "1.0.0",
+  "version": "1.0.600",
   "description": "Nock-style HTTP mocking using either nock or real servers",
   "main": "dist/index.js",
   "scripts": {
